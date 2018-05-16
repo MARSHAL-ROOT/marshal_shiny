@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "dat1 <- data.frame(\n  sex = factor(c(\"Female\",\"Female\",\"Male\",\"Male\")),\n  time = factor(c(\"Lunch\",\"Dinner\",\"Lunch\",\"Dinner\"), levels=c(\"Lunch\",\"Dinner\")),\n  total_bill = c(13.53, 16.81, 16.24, 17.42)\n)\n\n# Map sex to different point shape, and use larger points\np <- ggplot(data=dat1, aes(x=time, y=total_bill, group=sex, shape=sex)) +\n  geom_line(size=2) +\n  geom_point(size = 4) +\n  theme_classic()\np\n\nggplotly(p)\n",
+    "created" : 1519631482842.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3769966767",
+    "id" : "9C15C0DB",
+    "lastKnownWriteTime" : 4300837936,
+    "last_content_update" : 1519631546750,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
