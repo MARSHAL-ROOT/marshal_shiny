@@ -951,7 +951,7 @@ shinyServer(
       # browser what name to use when saving the file.
       filename = function() {
         # paste(input$dataset, input$filetype, sep = ".")
-        paste0(input$dataset, ".rsml")
+        "marshal.rsml"
       },
 
       # This function should write data to a file given to it by
@@ -1007,14 +1007,15 @@ shinyServer(
       # browser what name to use when saving the file.
       filename = function() {
         # paste(input$dataset, input$filetype, sep = ".")
-        paste0(input$dataset, ".txt")
+        "marshal.txt"
       },
 
       # This function should write data to a file given to it by
       # the argument 'file'.
       content = function(file) {
 
-        rsml <- read_file("www/rootsystem.txt")
+
+        rsml <- rs$rootsystem
         cat(rsml, file=file)
 
       }
@@ -1034,7 +1035,7 @@ shinyServer(
       # browser what name to use when saving the file.
       filename = function() {
         # paste(input$dataset, input$filetype, sep = ".")
-        paste0(input$dataset, ".vtp")
+        "marshal.vtp"
       },
 
       # This function should write data to a file given to it by

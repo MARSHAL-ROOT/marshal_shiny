@@ -5,9 +5,9 @@ account: plantmodelling
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 193718
-bundleId: 1327416
+bundleId: 1760346
 url: https://plantmodelling.shinyapps.io/marshal/
-when: 1524142636.91033
+when: 1544693231.64056
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: www/.DS_Store|www/a-mac.out|www/param.dgf|www/rootsystem.rsml|www/rootsystem.txt|www/rootsystem.vtp|www/rootsystem2.txt|www/modelparameter/.DS_Store

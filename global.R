@@ -19,6 +19,9 @@ library(Matrix)
 source("www/getSUF.R")
 source("www/getRootSys.R")
 library(plotly)
+library(shinyWidgets)
+library(shinydashboard)
+library(shinyBS)
 
 # Different color scales for the different plots
 cscale <- c("#ffffcc", "#a1dab4","#41b6c4", "#2c7fb8", "#253494")

@@ -1,11 +1,11 @@
 plantingdepth	0
 firstB	2
-delayB	1
-maxB	0
-nC	0
-firstSB 150	
+delayB	0
+maxB	10
+nC	2
+firstSB	18
 delaySB	1.5
-delayRC	150
+delayRC	3
 nz	0.1
 simtime	60
 dt	60
